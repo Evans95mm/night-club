@@ -1,0 +1,411 @@
+@media screen and (max-width: 500px) {
+
+
+  .social-i{
+    width:100%;
+    text-align: center;
+    margin-right: 0px;
+    margin-top:20px;
+    font-size: 30px;
+    i{
+      color:yellow;
+    }
+ }
+
+
+  .slideshow-cont{
+    .mySlides {
+      margin-top: 170px;
+    }
+  }
+
+  .connect{
+    width:100%;
+ 
+    img{
+      height:500px;
+    }
+    
+  .roof-slogan{
+   height:0vh;
+    width:100%;
+    p {
+      font-size:20px;
+
+      height:15vh;
+      width:100%;
+      font-size: 30px;
+      color:yellow;
+      margin-top:-130px;
+      background-color: rgba(black,0.5);
+    
+    
+    }
+    span{  font-size:30px;}
+    height:20vh;
+    }
+
+
+    .contact-details{
+     
+        margin-top:-120px;
+      .box1,.box2{
+        width: 100%;
+
+        font-size: 12px;
+        height:30vh;
+      }
+    }
+
+
+
+    .Booking-section{
+      width:100%;
+      margin-top: 100px;
+      height:180vh;
+     text-align: center;
+     margin-left: 0px;
+      h1{   margin:0px; text-align: center;}
+      .book-s,.enquire-s{
+        width:100%;
+
+        img{
+          width:100%;
+          margin:0px;
+        }
+      }
+    }
+
+    .cont-section{
+      width:100%;
+      text-align: center;
+      .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+  }
+  .enquire-s{
+    
+  
+    .cont-section{
+      width:100%;
+      text-align: center;
+      .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+
+
+      input[type=text], select, textarea {
+      
+        margin-left: 15px;
+    
+      }
+      input[type=submit]{
+        margin-left: 15px;
+      }
+  }
+  }
+
+}
+  
+
+  .front-view{
+     
+      
+    .mySlides{
+        
+      img{height:400px}
+    .text{
+      width:100%;
+      font-size: 20px;
+      text-align: center;
+      bottom: 170px;
+      height:30vh;
+      margin-left: 0px;
+        
+       align-items: center;
+      .b,.s,.c {
+            margin-top:15px;
+      }
+     }
+    }
+  }
+
+  .front-bottom{
+    margin-top: -130px;
+    text-align: center;
+    height:30vh;
+    }
+
+    
+    .wash-content{
+
+
+     
+     width:100%;
+     .text-front
+     { width:100%;
+      height:30vh; 
+      margin-top: -160px;
+    }
+    p,h1 {margin-left: 10px;}
+    p {font-size:25px;}
+      img {
+        height:400px;
+        width:100%;
+      }
+      
+    }
+
+ .roof-content{
+   
+  margin-left: 0px;
+  width:100%;
+  text-align: center;
+  p {
+    font-size: 15px;
+  }
+ }
+
+ .cont-section{
+   margin-left:0px;
+  width:100%;
+
+  
+  text-align: center;
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+.social-reference {
+
+   width:100%;
+   margin-top:500px;
+   
+   h1,p,i {margin-left: 20px;}
+} 
+
+
+}
+  
+  @media screen  and (max-width: 768px) {
+    
+    .main-header {
+        .menu-icon {
+          display: block;
+    
+          &__line {
+            animation: closedMid 0.8s backwards;
+            animation-direction: reverse;
+    
+            &::before {
+              animation: closedTop 0.8s backwards;
+              animation-direction: reverse;
+            }
+            &::after {
+              animation: closedBtm 0.8s backwards;
+              animation-direction: reverse;
+            }
+          }
+        }
+        .nav-links {
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 10rem 0;
+          width: 100vw;
+          height: 100vh;
+          font-size: 2rem;
+          color: #fff;
+          background: #272727;
+          transition:
+            opacity .8s .5s,
+            clip-path 1s .5s;
+          clip-path: circle(200px at top right);
+    
+          .nav-link {
+            opacity: 0;
+            transform: translateX(100%);
+            width: 100%;
+            text-align: center;
+    
+            a {
+              display: block;
+              padding: 2rem 0;
+            }
+          }
+        }
+    
+        .menu-btn:checked ~ .nav-links {
+          opacity: 1;
+          clip-path: circle(100% at center);
+    
+          .nav-link {
+            opacity: 1;
+            transform: translateX(0);
+            transition:
+              opacity .4s ease-in-out,
+              transform .6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+            &:nth-of-type(1) {
+              transition-delay: .7s;
+            }
+            &:nth-of-type(2) {
+              transition-delay: .8s;
+            }
+            &:nth-of-type(3) {
+              transition-delay: .9s;
+            }
+            &:nth-of-type(4) {
+              transition-delay: 1s;
+            }
+          }
+        }
+    
+        .menu-btn:checked ~ .menu-icon {
+          border-radius: 50%;
+          animation: pulse 1s;
+    
+          .menu-icon__line {
+            background: #fff;
+            animation: openMid 0.8s forwards;
+    
+            &::before {
+              background: #fff;
+              animation: openTop 0.8s forwards;
+            }
+            &::after {
+              background: #fff;
+              animation: openBtm 0.8s forwards;
+            }
+          }
+        }
+      }
+  
+    
+  
+    
+  
+  }
+  @media screen and (min-width:501px) and (max-width: 769px) {
+
+    .front-view{
+    .mySlides{
+      width: 100%;
+    .text{
+      width:100%;
+      font-size: 45px;
+       margin:0px;
+      height:35vh;
+      text-align: center;
+      margin-left: 0px;
+      
+
+      .b,.s,.c {
+            margin-top:15px;
+      }
+     }
+    }
+    }
+
+
+  
+    .connect{
+      width:100%;
+    
+      img{
+        height:500px;
+      }
+      
+    .roof-slogan{
+      width:100%;
+      
+      span{  font-size:30px;}
+      p{
+        height:15vh;
+      }
+      }
+  
+      .Booking-section{
+        width:100%;
+        margin-top: 0px;
+        height:70vh;
+       text-align: center;
+      }
+  
+      .google-map{
+         
+        
+        text-align: center;
+        height: 80vh;
+        h1{
+          text-align: center;
+          position: absolute;
+          width:100%;
+        }
+        map{
+         
+          .fr{
+            position: absolute;
+            margin-top: -500px;
+            margin-top:-200px;
+          }
+        }
+      }
+  }
+
+  .front-bottom{
+    height: 35vh;
+  }
+
+  .sec{
+    height:100vh;
+  }
+  
+  }
+  @media screen and (min-width: 770px)
+  {
+
+    .connect{
+
+        
+    .roof-slogan{
+      width:100%;
+      
+      span{  font-size:30px;}
+      p{
+        height:10vh;
+      }
+      }
+
+     
+ 
+      .google-map{
+        height:40vh;
+      }
+
+
+    }
+    .front-bottom{
+      height: 35vh;
+    }
+  }
+  
+  
+  @media screen and(min-width:1025px){
+
+    .connect{
+    .google-map{
+      height:90vh;
+    }
+  }
+
+  }

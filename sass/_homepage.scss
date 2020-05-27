@@ -1,0 +1,79 @@
+//wallpaper slideshow
+.front-view{
+    width:100%;
+    position: relative;
+    margin: auto;
+    background: cover;
+  
+
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+    width:100%;
+    height:600px;
+  /* Caption text */
+  img {height:600px;}
+  .text {
+    float: right;
+    color: #f2f2f2;
+    font-size: 50px;
+    position: absolute;
+    bottom: 15px;
+    width: 50%;
+    height:420px;
+    background-color:rgba(black,0.7);
+    .b,.s,.c
+    { 
+      color:white; border-style: none; height:6vh; width:100px;
+      margin-left: 30px;  border-radius: 4px;
+    
+    }
+    .b{ background-color:red;}
+    .s{ background-color: blue;}
+     .c{background-color:gold;}
+
+    h2,h3,h4{   margin-left: 30px;}
+    h4{ color:rgba(yellow,0.8);}
+    span{
+        color:purple;
+    }
+    
+  }  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+}
+}
+.front-bottom
+{
+  color:yellow;
+  background-color: black;
+  h4{margin-left: 30px;}
+
+  span {color: purple;}  
+
+  .social-i{
+     float:right;
+     margin-right: 30px;
+     margin-top:-20px;
+     font-size: 30px;
+     i{
+       color:yellow;
+     }
+  }
+}

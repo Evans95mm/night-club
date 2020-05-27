@@ -1,0 +1,16 @@
+{
+  "name": "exception",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://evans95mm.github.io/club",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w sass/ -o css/ --recursive"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

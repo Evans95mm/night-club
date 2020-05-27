@@ -1,0 +1,146 @@
+.wash-content{
+    width:100%;
+    color:white;
+    img{
+          height:600px;
+          width: 100%;
+        }
+     
+        .text-front{
+            float:right;
+            position: relative;
+            margin-top: -300px;
+            width:50%;
+            height:30vh;
+            background-color: rgba(black,0.5);
+        }
+        h1{font-size: 70px;}
+        p{
+            color:yellow;
+            font-size:30px;
+        }
+}
+
+
+.roof-content{
+    width:95%;
+    background-color: black;
+   margin-left: 30px;
+      p{color:white}
+          span{
+                
+                color:purple;
+                font-size:40px;
+                text-transform: bold;
+               
+            }
+         img{
+             padding-right: 30px;
+             float:right;
+               width:30%;
+               margin-top: -170px;
+               
+              
+         }
+         button{
+
+            width:200px;
+            height:50px;
+            border-radius: 6px;
+            margin-top: 30px;
+            background-color: yellow;
+            color:purple;
+            
+         }
+   }
+
+
+
+   /* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid yellow;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  
+  /* Style the container/contact section */
+  .cont-section {
+    border-radius: 5px;
+    margin-left: -20px;
+    margin-top: 60px;
+   
+   
+
+    h2{
+        margin-left:20px;
+    }
+     span{
+         color:purple;
+     }
+    input,textarea
+    {
+        background-color: black;
+    }
+    
+  }
+  
+  input[type=submit] {
+    background-color:purple;
+    color: white;
+    border-radius: 6px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width:200px;
+    height:50px;
+  }
+  
+  input[type=submit]:hover {
+    transform: scale(1.2);
+  }
+ 
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .social-reference{
+    margin-top: 170px;
+    width:100%;
+    color:yellow;
+    height:50vh;
+
+    
+   
+    
+    h1{
+ 
+        color:purple;
+    }
+    p{
+        margin-right:90px;
+    }
+  
+
+   
+      i{
+          
+        
+      color:yellow;
+     
+      }
+  }
